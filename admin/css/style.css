@@ -1,0 +1,310 @@
+.ui-front {
+    z-index: 9999;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+  width: 38px;
+}
+
+body{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("../img/simple_dashed.png");
+	color: white;
+}
+
+.logout_data{
+	color:#0a58ca;
+	text-align:center;
+	margin:10px;
+}
+
+.navbar-nav{
+	text-align:center;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+.bg-light {
+	background-image: url("../img/simple_dashed.png") !important;
+}
+
+.nav-link{
+	border: 1px solid white;
+	min-width:200px;
+	color: white;
+}
+
+.nav-link:hover{
+background-color: #0d6efd;
+color: white;
+}
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  min-width: 200px;
+  text-align: center;
+  background-image: url("../img/simple_dashed.png") !important;
+  border: 1px solid white;
+  padding: 0;
+  margin:0;
+  margin-top: -1px;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  color: #fff;
+  border: 1px solid white;
+}
+
+.dropdown-item:hover{
+	background-color: #0d6efd;
+	color:white;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  min-width: 200px;
+  text-align: center;
+  background-image: url("../img/simple_dashed.png") !important;
+  border: 1px solid white;
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  border-radius: 0;
+
+}
+
+.btnAdd {
+  text-align: center;
+  width: 83%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#example{
+	color: white;
+	border-style: ridge;
+}
+
+.form-select{
+	background-color:black;
+	color: white;
+}
+
+.dataTables_wrapper div.dataTables_filter input {
+  margin-left: .5em;
+  display: inline-block;
+  background: black;
+  color: whitel;
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  color: #fff;
+  pointer-events: none;
+  background-color: #000;
+  border-color: #fff;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	background-color: darkblue;
+	color:#ffffff;
+}
+
+
+@media(max-width: 800px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 475px;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	
+	#example {
+		color: white;
+		border-style: none;
+		}
+}
+
+/*responsive*/
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 275px;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	
+	#example {
+		color: white;
+		border-style: none;
+		}
+		
+		div.dataTables_wrapper div.dataTables_filter input {
+			text-align:center;
+			margin-left:auto;
+			margin-right: auto;
+			margin:10px;
+}
+
+.btn-check:focus + .btn-success, .btn-success:focus {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #090808;
+  background-clip: padding-box;
+  border: 1px solid rgba(255, 254, 254, 0.2);
+  border-radius: .3rem;
+  outline: 0;
+  color: white;
+}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fbfdff;
+  background-color: #000;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #000;
+  opacity: 1;
+}
+
+
+.form-control:focus {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fbfdff;
+  background-color: #000;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  position: relative;
+  padding: 3px 1em 3px .4em;
+  background-color: black;
+  color: white;
+}
+
+.ui-menu .ui-menu-item-wrapper:hover {
+background-color:#0d6efd;;
+}
+
+.ui-menu .ui-menu-item-wrapper:active {
+background-color:#0d6efd;;
+}
+.ui-menu .ui-menu-item-wrapper:focus {
+background-color:#0d6efd;;
+}
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+	background-color:#0d6efd;;
+}
